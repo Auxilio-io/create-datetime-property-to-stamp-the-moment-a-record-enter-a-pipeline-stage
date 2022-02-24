@@ -9,7 +9,10 @@ This can be usefull to create a datetime ticket property to stamp the moment a t
 All you need to do is:
 
 1- Open post-request.curl in a text editor
+
 2- Replace YOUR_API_KEY by your HubSpot Portal API Key
+
 3- Replace NAME_OF_YOUR_STATUS by the name of the status you want to create time stamp property for
+
 4- Copy and paste everything in the file into your computer's terminal
 
