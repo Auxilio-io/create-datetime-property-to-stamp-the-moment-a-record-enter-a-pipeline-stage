@@ -1,0 +1,14 @@
+curl --request POST \
+  --url 'https://api.hubapi.com/crm/v3/properties/ticket?hapikey=YOUR_API_KEY' \
+  --header 'content-type: application/json' \
+  --data '{
+  "name": "date_and_time_entered_status_NAME_OF_YOUR_STATUS",
+  "label": "Date and time entered status NAME_OF_YOUR_STATUS",
+  "type": "datetime",
+  "fieldType": "date",
+  "groupName": "ticket_activity",
+  "hidden": false,
+  "displayOrder": 2,
+  "hasUniqueValue": false,
+  "formField": false
+}'
