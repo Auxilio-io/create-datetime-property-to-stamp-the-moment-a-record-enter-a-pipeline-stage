@@ -1,5 +1,6 @@
 curl --request POST \
-  --url 'https://api.hubapi.com/crm/v3/properties/ticket?hapikey=YOUR_API_KEY' \
+  --url 'https://api.hubapi.com/crm/v3/properties/ticket' \
+  --header 'authorization: Bearer YOUR_ACCESS_TOKEN' \
   --header 'content-type: application/json' \
   --data '{
   "name": "date_and_time_entered_status_NAME_OF_YOUR_STATUS",
