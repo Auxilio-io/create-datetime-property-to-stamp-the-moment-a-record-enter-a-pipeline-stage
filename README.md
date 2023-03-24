@@ -1,4 +1,4 @@
-# create-datetime-ticket-property-to-stamp-the-moment-a-ticket-enter-a-status
+# create-datetime-property-to-stamp-the-moment-a-record-enter-a-pipeline-stage
 CURL request to create a datetime ticket property to stamp the moment a ticket enter a status in a HubSpot ticket pipeline
 
 
