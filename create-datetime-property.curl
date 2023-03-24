@@ -1,5 +1,5 @@
 curl --request POST \
-  --url 'https://api.hubapi.com/crm/v3/properties/ticket' \
+  --url 'https://api.hubapi.com/crm/v3/properties/OBJECT' \
   --header 'authorization: Bearer YOUR_ACCESS_TOKEN' \
   --header 'content-type: application/json' \
   --data '{
@@ -7,7 +7,7 @@ curl --request POST \
   "label": "Date and time entered status NAME_OF_YOUR_STATUS",
   "type": "datetime",
   "fieldType": "date",
-  "groupName": "ticket_activity",
+  "groupName": "GROUP",
   "hidden": false,
   "displayOrder": 2,
   "hasUniqueValue": false,
